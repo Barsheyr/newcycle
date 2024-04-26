@@ -9,7 +9,7 @@ const Section2 = () => {
         <h1 className="lg:text-6xl text-4xl tracking-wide leading-tight">
           Service, <br /> maintenance and insurance
         </h1>
-        <p className="lg:text-xl text-xl lg:pr-[50%]">
+        <p className="lg:text-xl font-thin text-xl lg:pr-[50%]">
           The lease includes an all-in service package. Throughout the entire 36
           months, you are fully insured against damage, theft and maintenance.
           In addition, you always have access to roadside assistance.

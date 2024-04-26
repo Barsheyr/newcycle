@@ -5,6 +5,7 @@ import "./globals.css";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BookNow from "@/components/BookNow";
 
 const inter = Inter({ subsets: ["latin"] });
 const platypi = Platypi({ subsets: ["latin"] });
@@ -21,9 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={platypi.className}>
+      <body className={inter.className}>
         <Header />
         {children}
+        <BookNow />
         <Footer />
       </body>
     </html>

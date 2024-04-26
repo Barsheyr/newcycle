@@ -12,7 +12,7 @@ const Section3 = () => {
           <h1 className="text-4xl tracking-tight sm:text-6xl">
             Free of charge for employees.
           </h1>
-          <p className="font-thin">
+          <p className="font-light">
             Veloretti Electrics benefit both the environment and the health of
             your employees. Oh, and they look good too. Cost-free for the
             employer and outside of the WKR.

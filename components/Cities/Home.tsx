@@ -1,7 +1,6 @@
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
-import AboutUsNew from "@/assests/AboutUsNew.png";
+import CityHero from "@/assests/CityHero.png";
 
 const Hero = () => {
   return (
@@ -10,13 +9,13 @@ const Hero = () => {
         <p className=" text-lg tracking-wide leading-tight">
           VELERETTI ELECTRIC
         </p>
-        <h1 className="text-7xl  tracking-wide leading-tight">About Us</h1>
+        <h1 className="text-7xl  tracking-wide leading-tight"> City Bikes </h1>
         <p className="lg:text-xl text-xl">Forever Forward</p>
       </div>
 
       <div className="absolute top-0 w-full h-full">
         <Image
-          src={AboutUsNew}
+          src={CityHero}
           alt="AboutUsHero"
           className="object-cover h-[100vh] w-full"
         />

@@ -9,7 +9,7 @@ import NavLinks from "./Navlinks";
 
 const Header = () => {
   return (
-    <main className="max-w-8xl mx-auto lg:px-20 px-5 py-10">
+    <main className="max-w-8xl mx-auto lg:px-20 px-5 py-5">
       <div className="flex flex-row justify-between items-center">
         <div className="flex flex-row items-center justify-center gap-20">
           {/* <Image src={Veloretti} alt="Logo" className="cursor-pointer" /> */}

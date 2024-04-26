@@ -14,7 +14,7 @@ const Faq = () => {
             What about the paper work ?
           </div>
           <div className="collapse-content">
-            <p className="font-thin">
+            <p className="font-light">
               The bicycle plan is set up so that there will be no administrative
               work on your part as the employer. You can use a free online
               platform that has been created by our leasing partner. This
