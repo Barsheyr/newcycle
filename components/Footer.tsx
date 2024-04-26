@@ -11,7 +11,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <section className="">
-      <footer className="footer py-32 px-20 bg-base-200 text-base-content">
+      <footer className="footer py-32 px-5 bg-base-200 text-base-content">
         <nav>
           <h6 className="footer-title text-white text-xl tracking-widest">
             Explorer
