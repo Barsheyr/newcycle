@@ -5,19 +5,30 @@ import citytwo from "@/assests/citytwo.png";
 
 const SectionCitytwo = () => {
   return (
-    <div className="max-w-7xl mx-auto px-10 py-20 relative mb-[30%]">
-      <div className="flex lg:flex-row flex-col items-center justify-between gap-20">
-        <Image src={cityone} alt="cityone" />
-        <Image src={citytwo} alt="citytwo" />
+    <section className="max-w-7xl mx-auto px-6 lg:px-12 py-16">
+      {/* Image grid */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+        <Image
+          src={cityone}
+          alt="city one"
+          className="w-full h-auto object-cover rounded-xl shadow-md"
+        />
+        <Image
+          src={citytwo}
+          alt="city two"
+          className="w-full h-auto object-cover rounded-xl shadow-md"
+        />
       </div>
-      <div className="max-w-xl mx-auto lg:px-20 px-10 absolute lg:-bottom-32 bottom-0 right-[30%]">
-        <p className="bg-white lg:p-10 p-5 lg:text-2xl text-md border-5 rounded-md shadow-lg">
+
+      {/* Text block */}
+      <div className="mt-10 lg:mt-16 max-w-2xl mx-auto">
+        <p className="bg-white text-gray-700 lg:text-xl text-base leading-relaxed p-6 lg:p-10 rounded-xl shadow-lg border border-gray-100">
           Our women bicycles are for everyone who likes to combine style with
           performance. In this range, available are the Café Racer and the
           Robyn, both frames with a lower tube, making it easy to step through.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 

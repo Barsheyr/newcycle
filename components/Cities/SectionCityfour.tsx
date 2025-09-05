@@ -6,24 +6,39 @@ import Cityseven from "@/assests/cityseven.png";
 
 const SectionCityfour = () => {
   return (
-    <div className="max-w-8xl mx-auto px-20 py-20 relative">
-      <div className="grid lg:grid-cols-12 grid-cols-1">
-        <Image src={Cityfive} alt="cityfive" className="col-span-6" />
-        <p className="shadow-md lg:text-2xl text-lg border-2 border-slate-300 text-slate-400 rounded-md col-span-3">
-          Whether you like it easy or fast, we got both. Our mens range of
-          bicycles combine modern clean design with great quality, so they are
-          perfect for your daily city commute. Our men citybikes are the
-          Caféracer, Caféchaser and the Berlin, but feel free to opt for a
-          womens bike for that easy hop-on- hop-off Amsterdam style.
-        </p>
-        <Image src={Citysix} alt="citysix" className="col-span-3" />
+    <section className="max-w-7xl mx-auto px-6 lg:px-12 py-16 relative">
+      {/* Use 3 columns on large screens */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
+        {/* Left image */}
+        <div>
+          <Image
+            src={Cityfive}
+            alt="city five"
+            className="w-full h-auto rounded-xl shadow-md object-cover"
+          />
+        </div>
+
+        {/* Middle text card */}
+        <div>
+          <p className="bg-white shadow-lg text-gray-700 border border-slate-200 rounded-xl p-6 lg:p-8 text-base lg:text-lg leading-relaxed">
+            Whether you like it easy or fast, we got both. Our men’s range of
+            bicycles combine modern clean design with great quality, so they’re
+            perfect for your daily city commute. Our men citybikes are the
+            Caféracer, Caféchaser and the Berlin, but feel free to opt for a
+            women’s bike for that easy hop-on-hop-off Amsterdam style.
+          </p>
+        </div>
+
+        {/* Right image */}
+        <div>
+          <Image
+            src={Citysix}
+            alt="city six"
+            className="w-full h-auto rounded-xl shadow-md object-cover"
+          />
+        </div>
       </div>
-      {/* <Image
-        src={Cityseven}
-        alt="cityseven"
-        className="absolute -bottom-[50%] left-[30%] w-[20%]"
-      /> */}
-    </div>
+    </section>
   );
 };
 
